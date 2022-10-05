@@ -25,9 +25,11 @@ buttonText.addEventListener('click',()=>{
     if(theme==='darkmode')
     {
           lightmode();    
+          console.log("lightMode");
     }
     else
     {
         darkmode();
+        console.log("darkMode");
     }
 })
